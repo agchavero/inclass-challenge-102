@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(10, 1, 20);
+    background-image: url(../media/images/smilefob.png);
+    background-position: center;
+    background-size: 45%;
+}
+
+.fob{
+    font-family: 'Oswald', sans-serif;
+    position:relative;
+    text-align: center;
+    color: white;
+}
+.concert{
+    object-fit: cover;
+
+}
+.one{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 130pt;
+    text-align: center;
+
+}
+
+.bio{
+    position: absolute;
+    bottom:25%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 15pt;
+    text-shadow: 5px 5px 5px rgb(161, 57, 48);   
+}
+
+.music{
+    font-family: 'Oswald', sans-serif;
+    color:rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgba(103, 29, 221, 0.519);
+    background-color: rgba(249, 249, 249, 0.301);
+    width: center;
+    text-align: center;
+    font-size: 50pt;
+}
+.gallery{
+    box-shadow: 5px 5px 5px rgb(60, 4, 86);
+    margin:10px;
+    border:1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    float:left;
+    width:180px;
+}
+img{
+    
+    width:100%;
+    height: auto;
+}
+.desc{
+    font-family: 'Oswald', sans-serif;
+    padding:10;
+    text-align:center;
+}
+
+.extras{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 70%;
+
+}
+
+.audio{
+width:90%;
+}
