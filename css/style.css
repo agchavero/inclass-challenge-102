@@ -29,6 +29,7 @@ body{
     color:rgb(255, 255, 255);
     font-size: 130pt;
     text-align: center;
+    text-shadow: 7px 7px 7px rgb(161, 57, 48); 
 
 }
 
@@ -48,7 +49,6 @@ body{
     color:rgb(255, 255, 255);
     text-shadow: 5px 5px 5px rgba(103, 29, 221, 0.519);
     background-color: rgba(249, 249, 249, 0.301);
-    width: center;
     text-align: center;
     font-size: 50pt;
 }
@@ -71,14 +71,53 @@ img{
     text-align:center;
 }
 
+
+
+.audio{
+width:90%;
+}
+
+.space{
+    max-width: auto;
+    height: 350px;
+}
+
+
+
+.members{
+    display:block;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgba(103, 29, 221, 0.519);
+    background-color: rgba(249, 249, 249, 0.301);
+    text-align: center;
+    font-size: 50pt;
+}
+
+.portraits{
+    position: relative;
+    text-align: center;
+}
+
 .extras{
     display: block;
   margin-left: auto;
   margin-right: auto;
     width: 70%;
+}
+
+.names{
+    font-family: 'Oswald', sans-serif;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
+    font-size: 25px;
+    text-shadow: 7px 7px 7px rgba(51, 51, 52, 0.756); 
 
 }
 
-.audio{
-width:90%;
+.space2{
+    max-width: auto;
+    height: 200px;
 }
